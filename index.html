@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Site Bookmarker</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body onload="fetchBookmark()">
+
+    <div class="container">
+      <nav>
+
+      </nav>
+      <div class="header clearfix">
+        <h3 class="text-muted">Bookmarker</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h2>Bookmark your favorite sites</h2>
+        <form id = "myform">
+          <div class="form-group">
+            <label>Site Name</label>
+            <input type="text" class = "form-control" id ="site-name" placeholder="Enter website name">
+          </div>
+          <div class="form-group">
+            <label>Site URL</label>
+            <input type="text" class = "form-control" id ="site-url" placeholder="Enter website url">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12 <col-mg-12></col-mg-12>">
+          <div id="bookmarksResults"></div>
+        </div>
+      </div> <!-- /container -->
+      <footer class="footer">
+        <p>&copy; 2016 Bookmarker, Inc.</p>
+      </footer>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src ="js/bootstrap.min.js"></script>
+    <script src ="js/main.js"></script>
+  </body>
+</html>
